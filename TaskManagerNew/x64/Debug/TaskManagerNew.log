@@ -1,0 +1,16 @@
+﻿  main.cpp
+  user.cpp
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3,19): error C2011: "IDGenerator'': "class" wpisz ponownie definicję
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(15,14): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "IDGenerator"
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(16,10): error C2065: "only_copy": niezadeklarowany identyfikator
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(17,9): error C2065: "only_copy": niezadeklarowany identyfikator
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(17,38): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "IDGenerator"
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(19,12): error C2065: "only_copy": niezadeklarowany identyfikator
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\user.cpp(19,23): warning C4129: "d": nierozpoznany znak sekwencji ucieczki
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\user.cpp(92,2): error C2059: błąd składniowy: „}”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\user.cpp(99,14): error C3861: "FindUserById": identyfikatora nie odnaleziono
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\user.cpp(99,26): message : „FindUserById”: deklaracja funkcji musi być dostępna, ponieważ żaden z argumentów nie zależy od parametru szablonu
+  Generowanie kodu...
