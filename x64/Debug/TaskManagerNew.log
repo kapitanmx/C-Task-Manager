@@ -1,0 +1,54 @@
+﻿  main.cpp
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3,19): error C2011: "IDGenerator'': "class" wpisz ponownie definicję
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(15,14): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "IDGenerator"
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(16,10): error C2065: "only_copy": niezadeklarowany identyfikator
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(17,9): error C2065: "only_copy": niezadeklarowany identyfikator
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(17,38): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "IDGenerator"
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(19,12): error C2065: "only_copy": niezadeklarowany identyfikator
+  task.cpp
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3,19): error C2011: "IDGenerator'': "class" wpisz ponownie definicję
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(15,14): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "IDGenerator"
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(16,10): error C2065: "only_copy": niezadeklarowany identyfikator
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(17,9): error C2065: "only_copy": niezadeklarowany identyfikator
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(17,38): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "IDGenerator"
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(19,12): error C2065: "only_copy": niezadeklarowany identyfikator
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\task.cpp(17,18): warning C4129: "s": nierozpoznany znak sekwencji ucieczki
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\task.cpp(17,18): warning C4129: "d": nierozpoznany znak sekwencji ucieczki
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\task.cpp(58,18): warning C4129: "s": nierozpoznany znak sekwencji ucieczki
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\task.cpp(58,18): warning C4129: "d": nierozpoznany znak sekwencji ucieczki
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\task.cpp(94,13): warning C4129: "M": nierozpoznany znak sekwencji ucieczki
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\task.cpp(94,13): warning C4129: "R": nierozpoznany znak sekwencji ucieczki
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\task.cpp(109,13): warning C4129: "M": nierozpoznany znak sekwencji ucieczki
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\task.cpp(109,13): warning C4129: "R": nierozpoznany znak sekwencji ucieczki
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\task.cpp(127,24): error C2664: „std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::erase(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>) noexcept(<expr>)”: nie można dokonać konwersji argumentu 1 z „_Ty” do „std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”
+          with
+          [
+              _Ty=Task
+          ]
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\task.cpp(127,23): message : Nie jest dostępny żaden operator konwersji zdefiniowany przez użytkownika, który mógłby wykonać tę konwersję lub operator nie może zostać wywołany
+G:\Visual Studio 2022\VC\Tools\MSVC\14.31.31103\include\vector(1303,27): message : zobacz deklarację „std::vector<Task,std::allocator<Task>>::erase”
+  user.cpp
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3,19): error C2011: "IDGenerator'': "class" wpisz ponownie definicję
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(15,14): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "IDGenerator"
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(16,10): error C2065: "only_copy": niezadeklarowany identyfikator
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(17,9): error C2065: "only_copy": niezadeklarowany identyfikator
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(17,38): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "IDGenerator"
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(3): message : zobacz deklarację „IDGenerator”
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\id_generator.h(19,12): error C2065: "only_copy": niezadeklarowany identyfikator
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\user.cpp(20,23): warning C4129: "d": nierozpoznany znak sekwencji ucieczki
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\user.cpp(97,24): error C2664: „std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::erase(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>) noexcept(<expr>)”: nie można dokonać konwersji argumentu 1 z „_Ty” do „std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”
+          with
+          [
+              _Ty=User
+          ]
+C:\Users\kapit\source\repos\TaskManagerNew\TaskManagerNew\user.cpp(97,23): message : Nie jest dostępny żaden operator konwersji zdefiniowany przez użytkownika, który mógłby wykonać tę konwersję lub operator nie może zostać wywołany
+G:\Visual Studio 2022\VC\Tools\MSVC\14.31.31103\include\vector(1303,27): message : zobacz deklarację „std::vector<User,std::allocator<User>>::erase”
+  Generowanie kodu...
