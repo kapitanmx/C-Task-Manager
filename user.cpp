@@ -1,9 +1,10 @@
-#include "user.h"
-#include "id_generator.h"
 #include <regex>
 #include <vector>
 #include <stdlib.h>
 #include <time.h>
+#include "user.hpp"
+
+#define __USER
 
 vector <User> users;
 
@@ -16,7 +17,7 @@ void User::CreateUser(string name, string lastName, string email, string passwor
 {
 	User* newUser;
 	uint32_t ID;
-	regex password_regex("^(? = .*[A - Za - z])(? = .*\d)[A - Za - z\d]{8,}$");
+	regex password_regex("^(? = .*[A - Za - z])(? = .*\\d)[A - Za - z\\d]{8,}$");
 	regex email_regex("(\\w+)(\\.|_)?(\\w*)@(\\w+)(\\.(\\w+))+");
 
 	if (name == "" && lastName == "" && email == "" && password == "") 
@@ -98,7 +99,7 @@ void User::Login(string email, string password)
 			cin >> initDate;
 			cout << "Podaj date zakonczenia zadania (DD/MM/RRRR)" << endl;
 			cin >> expDate;
-			newTask = task.CreateTask(title, description, initDate, expDate);
+			newTask.CreateTask(title, description, initDate, expDate);
 
 		case 7:
 		default:
@@ -135,7 +136,7 @@ void User::DeleteUser(string password)
 	{
 		if (users[i].Password == password)
 		{
-			users.erase(users[i]);
+			//users.erase(users[i]);
 			break;
 		}
 	}

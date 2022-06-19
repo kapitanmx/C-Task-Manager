@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <vector>
-#include "user.h"
-#include "task.h"
+#include "user.cpp"
 
 using namespace std;
 

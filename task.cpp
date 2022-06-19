@@ -1,8 +1,9 @@
-#include "task.h"
-#include "id_generator.h"
+#include "task.hpp"
 #include <regex>
 #include <vector>
 #include <stdlib.h>
+
+#define __TASK
 
 vector <Task> tasks;
 
@@ -14,7 +15,7 @@ int tasksArrSize()
 void Task::CreateTask(string title, string description, string initDate, string expDate)
 {
 	Task* task;
-	regex dateRegex("\s+(?:0[1-9]|[12][0-9]|3[01])[-/.](?:0[1-9]|1[012])[-/.](?:19\d{2}|20[01][0-9]|2020)\b");
+	regex dateRegex("\\s+(?:0[1-9]|[12][0-9]|3[01])[-/.](?:0[1-9]|1[012])[-/.](?:19\\d{2}|20[01][0-9]|2020)\b");
 	if (title == "" && description == "" && initDate == "" && expDate == "")
 	{
 		cout << "Tytul oraz opis nie moga byc puste" << endl;
@@ -65,7 +66,7 @@ void Task::EditTask(uint32_t ID)
 	Task task = FindTaskByID(ID);
 	int choice;
 	string title, description, initDate, expDate;
-	regex dateRegex("\s+(?:0[1-9]|[12][0-9]|3[01])[-/.](?:0[1-9]|1[012])[-/.](?:19\d{2}|20[01][0-9]|2020)\b");
+	regex dateRegex("\\s+(?:0[1-9]|[12][0-9]|3[01])[-/.](?:0[1-9]|1[012])[-/.](?:19\\d{2}|20[01][0-9]|2020)\b");
 
 	cout << "Wybierz opcje: \n" << endl;
 	cout << "1 - Zmien tytul\n 2 - Zmien opis\n 3 - Zmien date rozpoczecia\n 4 - Zmien date zakonczenia " << endl;
@@ -101,7 +102,7 @@ void Task::EditTask(uint32_t ID)
 			}
 			if (!regex_match(initDate, dateRegex))
 			{
-				cout << "Wprowadzono zly format daty. Prawidlowy format: DD\MM\RRRR" << endl;
+				cout << "Wprowadzono zly format daty. Prawidlowy format: DD\\MM\\RRRR" << endl;
 				break;
 			}
 			task.InitDate = initDate;
@@ -134,7 +135,7 @@ void Task::DeleteTask(uint32_t ID)
 	{ 
 		if (tasks[i].ID == ID)
 		{
-			tasks.erase(tasks[i]);
+			// tasks.erase()(tasks[i]);
 			break;
 		}
 	}
