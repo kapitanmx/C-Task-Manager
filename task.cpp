@@ -38,6 +38,7 @@ void Task::CreateTask(string title, string description, string initDate, string 
 	tasks.push_back(*task);
 }
 
+
 Task Task::FindTaskByID(uint32_t ID)
 {
 	for (int i = 0; i < tasksArrSize(); i++)
