@@ -21,12 +21,18 @@
     <ClCompile Include="user.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="task.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="user.h">
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
     <ClInclude Include="id_generator.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="task.h">
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
   </ItemGroup>
