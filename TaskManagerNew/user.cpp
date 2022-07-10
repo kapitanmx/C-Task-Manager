@@ -124,14 +124,9 @@ void User::EditUser(uint32_t ID)
 	cin >> wybor;
 }
 
-void User::DeleteUser(string password)
+void User::DeleteUser(uint32_t ID)
 {
-	for (int i = 0; i < usersArrSize(); i++)
-	{
-		if (users[i].Password == password)
-		{
-			users.erase(users[i]);
-			break;
-		}
-	}
+	User user = FindUserById(ID);
+	users.erase(user);
 }
+
